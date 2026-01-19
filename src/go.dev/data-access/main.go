@@ -50,15 +50,15 @@ func main() {
   }
   fmt.Printf("Album found: %v\n", alb)
 
-  albID, err := addAlbum(Album{
-    Title: "The Modern Sound of Betty Carter",
-    Artist: "Betty Carter",
-    Price: 49.99,
-  })
-  if err != nil {
-    log.Fatal(err)
-  }
-  fmt.Printf("ID of added album: %v\n", albID)
+  // albID, err := addAlbum(Album{
+  //   Title: "The Modern Sound of Betty Carter",
+  //   Artist: "Betty Carter",
+  //   Price: 49.99,
+  // })
+  // if err != nil {
+  //   log.Fatal(err)
+  // }
+  // fmt.Printf("ID of added album: %v\n", albID)
 }
 
 func albumsByArtist(name string) ([]Album, error) {
